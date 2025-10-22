@@ -30,5 +30,14 @@
 ### 致谢
 
 
+// 按学号查询
+int query_by_student_id(char *student_id) {
+    for (int i = 0; i < student_count; i++) {
+        if (strcmp(students[i].student_id, student_id) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
 
 
