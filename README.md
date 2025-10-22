@@ -48,4 +48,5 @@ void input_multiple_students() {
     }
     
     printf("\n成功录入 %d 名学生信息！\n", num);
+    printf("太优秀了");
 }
