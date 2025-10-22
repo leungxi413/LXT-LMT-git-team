@@ -41,3 +41,13 @@ int query_by_student_id(char *student_id) {
 }
 
 
+// 按姓名查询
+int query_by_name(char *name) {
+    for (int i = 0; i < student_count; i++) {
+        if (strcmp(students[i].name, name) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
