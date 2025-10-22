@@ -1,10 +1,3 @@
-/*
- * 学生成绩管理系统 - 主程序
- * 项目组长：xt
- * 开发团队：xt & mt
- * 开发时间：2025-10-22
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "student_info.h"

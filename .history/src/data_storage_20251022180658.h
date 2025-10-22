@@ -18,5 +18,9 @@ int load_from_file(Student students[], int *count, char *filename);
 // 函数声明：追加学生数据到文件
 int append_to_file(Student *stu, char *filename);
 
+// 函数声明：备份学生数据
+int backup_data(Student students[], int count, char *backup_filename);
+
 #endif
+
 
