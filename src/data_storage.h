@@ -13,4 +13,3 @@ int load_from_file(Student students[], int *count, char *filename);
 int append_to_file(Student *stu, char *filename);
 
 #endif
-

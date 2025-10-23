@@ -1,0 +1,21 @@
+# 编译生成的可执行文件
+*.exe
+*.out
+*.o
+
+# 数据备份文件
+*.bak
+*.tmp
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+
+

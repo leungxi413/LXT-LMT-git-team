@@ -1,0 +1,29 @@
+[
+  {
+    "name": "1",
+    "student_id": "lll",
+    "chinese": 100.0,
+    "math": 80.0,
+    "english": 90.0,
+    "total": 270.0,
+    "average": 90.0
+  },
+  {
+    "name": "xxx",
+    "student_id": "90",
+    "chinese": 80.0,
+    "math": 100.0,
+    "english": 70.0,
+    "total": 250.0,
+    "average": 83.33333333333333
+  },
+  {
+    "name": "ttt",
+    "student_id": "2",
+    "chinese": 85.0,
+    "math": 95.0,
+    "english": 75.0,
+    "total": 255.0,
+    "average": 85.0
+  }
+]
