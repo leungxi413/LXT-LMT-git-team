@@ -1,9 +1,3 @@
-/*
- * 数据存储模块
- * 负责人：xt
- * 功能：学生数据的保存、读取和持久化管理
- * 开发时间：2025-10-22
- */
 
 #include <stdio.h>
 #include <string.h>
@@ -108,30 +102,4 @@ int append_to_file(Student *stu, char *filename) {
     printf("\n成功追加学生 %s 的数据到文件\n", stu->name);
     return 1;
 }
-
-/**
- * 函数名：backup_data
- * 功能：备份学生数据到指定文件
- * 参数：students - 学生数组
- *       count - 学生总数
- *       backup_filename - 备份文件名
- * 返回值：成功返回1，失败返回0
- */
-int backup_data(Student students[], int count, char *backup_filename) {
-    printf("\n========== 数据备份 ==========\n");
-    printf("正在备份 %d 名学生的数据到 %s...\n", count, backup_filename);
-    
-    int result = save_to_file(students, count, backup_filename);
-    
-    if (result) {
-        printf("数据备份成功！\n");
-        printf("==============================\n");
-    } else {
-        printf("数据备份失败！\n");
-        printf("==============================\n");
-    }
-    
-    return result;
-}
-
 

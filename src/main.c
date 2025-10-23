@@ -1,10 +1,3 @@
-/*
- * 学生成绩管理系统 - 主程序
- * 项目组长：xt
- * 开发团队：xt & mt
- * 开发时间：2025-10-22
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "student_info.h"
@@ -39,7 +32,7 @@ int main() {
     printf("*                                      *\n");
     printf("*      学生成绩管理系统 v1.0           *\n");
     printf("*                                      *\n");
-    printf("*      开发团队：xt & mt               *\n");
+    printf("*      开发团队：LXT & LMT             *\n");
     printf("*                                      *\n");
     printf("****************************************\n");
     
@@ -200,6 +193,4 @@ void save_data() {
 void load_data() {
     load_from_file(students, &student_count, DATA_FILE);
 }
-
-
 

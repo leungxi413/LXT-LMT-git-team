@@ -1,10 +1,3 @@
-/*
- * 学生信息录入模块
- * 负责人：mt
- * 功能：学生基本信息和成绩的录入
- * 开发时间：2025-10-22
- */
-
 #include <stdio.h>
 #include <string.h>
 #include "student_info.h"
@@ -65,6 +58,4 @@ void input_multiple_students(Student students[], int *count) {
     
     printf("\n成功录入 %d 名学生信息！\n", num);
 }
-
-
 
