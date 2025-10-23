@@ -113,7 +113,7 @@ git commit -m "清晰的提交说明"
 git push origin feature-功能名
 ```
 
-### 合并代码
+### 合并代码（需要现在个人的desktop上面add、commit上传）
 1. 在GitHub上发起Pull Request
 2. 组长审核代码
 3. 解决冲突（如有）
