@@ -1,9 +1,3 @@
-/*
- * 成绩计算模块
- * 负责人：xt
- * 功能：计算总分、平均分和成绩统计
- */
-
 #ifndef SCORE_CALCULATE_H
 #define SCORE_CALCULATE_H
 

@@ -1,10 +1,3 @@
-/*
- * 成绩查询模块
- * 负责人：mt
- * 功能：按学号或姓名查询学生信息
- * 开发时间：2025-10-22
- */
-
 #include <stdio.h>
 #include <string.h>
 #include "score_query.h"
@@ -91,6 +84,4 @@ void display_all_students(Student students[], int count) {
     }
     printf("==================================================================================================\n");
 }
-
-
 
