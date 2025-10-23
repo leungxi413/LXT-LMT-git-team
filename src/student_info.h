@@ -1,9 +1,3 @@
-/*
- * 学生信息录入模块
- * 负责人：mt
- * 功能：学生基本信息和成绩的录入
- */
-
 #ifndef STUDENT_INFO_H
 #define STUDENT_INFO_H
 
@@ -25,6 +19,4 @@ void input_student_info(Student *stu);
 void input_multiple_students(Student students[], int *count);
 
 #endif
-
-
 

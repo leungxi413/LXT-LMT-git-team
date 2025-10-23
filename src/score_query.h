@@ -1,9 +1,3 @@
-/*
- * 成绩查询模块
- * 负责人：mt
- * 功能：按学号或姓名查询学生信息
- */
-
 #ifndef SCORE_QUERY_H
 #define SCORE_QUERY_H
 
@@ -22,6 +16,4 @@ void display_student_info(Student *stu);
 void display_all_students(Student students[], int count);
 
 #endif
-
-
 

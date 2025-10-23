@@ -1,10 +1,3 @@
-/*
- * 成绩计算模块
- * 负责人：xt
- * 功能：计算总分、平均分和成绩统计
- * 开发时间：2025-10-22
- */
-
 #include <stdio.h>
 #include "score_calculate.h"
 
